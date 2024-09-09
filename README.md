@@ -10,4 +10,7 @@ Please refer to the `SydShafferLab/BarcodeAnalysis` wiki for how to edit the `pa
 1. `bclen`: 20
 1. `sc_mm`: 4
 1. `starseqMatch`: 70
-1. `spike_in_seqs` have been edited for new spike-ins that were made for barcode_v2. 
+1. `spike_in_seqs` have been edited for new spike-ins that were made for barcode_v2.
+
+Notes:
+1. This code was edited to only process one lane file per sample (i.e. only "_L001"). If you have multiple lane .fastq files per sample, please rename the filenames such that all sample filenames have a unique string before "_L001". 
